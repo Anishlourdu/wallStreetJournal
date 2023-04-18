@@ -1,0 +1,88 @@
+$app-color: #e92440;
+$link-color: #0274a9;
+
+
+#sidebar-container {
+    padding-top: 20px;
+    margin-left: 30px;
+    text-align: center;
+    border-left: 1px solid rgb(221, 221, 221);
+    .sidebar__header {
+        font-size: 22px;
+        line-height: 26px;
+        margin: 8px 0 20px 0;
+        color: #e92440;
+
+        &--value1 {
+            color: #000000;
+        }
+
+        &--value2 {
+            color: #000000;
+            font-size: 16px;
+        }
+    }
+
+    .sidebar-benefits {
+        text-align: left;
+        padding-right: 15px;
+
+        li {
+            padding: 0 0 20px 50px;
+        }
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li {
+        position: relative;
+        background-repeat: no-repeat;
+
+    }
+
+
+    .benefit-1 {
+        background-image: url(https://www.wsjwine.com/images/us/common/recr/icon_Case.gif);
+    }
+    .benefit-2{
+        background-image: url(https://www.wsjwine.com/images/us/common/recr/icon_SalesTag.gif);
+    }
+    .benefit-2a{
+        background-image: url(https://www.wsjwine.com/images/us/common/recr/icon_Savings.gif);
+    }
+    .benefit-2b{
+        background-image: url(https://www.wsjwine.com/images/us/common/recr/icon_VIP.gif);
+    }
+    .benefit-3{
+        background-image: url(https://www.wsjwine.com/images/us/common/recr/icon_Notice.gif);
+    }
+    .benefit-4{
+        background-image: url(https://www.wsjwine.com/images/us/common/recr/icon_Custom.gif);
+    }
+    .benefit-5{
+        background-image: url(https://www.wsjwine.com/images/us/common/recr/icon_TastingNotes.gif);
+    }
+    .benefit-6{
+        background-image: url(https://www.wsjwine.com/images/us/common/recr/icon_Guarantee.gif);
+    }
+}
+
+.img-responsive {
+    display: block;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.sidebar-header {
+    font-size: 22px;
+    line-height: 26px;
+    margin: 8px 0 20px 0;
+    color: #e92440;
+}

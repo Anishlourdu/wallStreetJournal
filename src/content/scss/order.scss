@@ -1,0 +1,36 @@
+  .section__header4 h2 {
+      padding-top: 40px;
+  }
+
+  .header4 {
+      &--label1 {
+          padding-top: 40px;
+          padding-bottom: 40px;
+      }
+
+      &--label2 {
+          border-top: 1px solid rgb(221, 221, 221);
+          padding-top: 40px;
+          padding-bottom: 40px;
+      }
+
+      &--cancel {
+          padding-left: 30px;
+      }
+  }
+
+
+  .btn-placeorder {
+      color: rgb(255, 255, 255);
+      background-color: rgb(157, 157, 157);
+      border-color: transparent;
+      box-shadow: none;
+      cursor: not-allowed;
+      pointer-events: none;
+      font-size: 20px;
+      height: 34px;
+      padding: 0px 60px;
+      letter-spacing: 2px;
+      font-weight: bold;
+      padding-bottom: 40px;
+  }

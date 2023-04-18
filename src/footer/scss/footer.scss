@@ -1,0 +1,22 @@
+// Footer
+$link-color: #0274a9;
+
+#footer {
+    border-top: 1px solid rgb(221, 221, 221);
+    padding-top: 20px;
+    text-align: left;
+}
+
+.footer-center {
+    display: flex;
+    align-items: center;
+
+    p {
+        font-size: 14px;
+        padding-bottom: 12px;
+    }
+}
+
+.footer-link{
+    color: $link-color;
+}
